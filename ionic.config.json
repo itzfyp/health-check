@@ -1,6 +1,8 @@
 {
   "name": "health-check",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "84886903"
 }
