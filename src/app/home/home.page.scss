@@ -1,1 +1,59 @@
+ion-content {
+  --background: #f7f7f7;
+  ion-card {
+    --background: #fff;
+  }
+}
 
+.card-size {
+  min-height: 130px;
+}
+
+.save-btn {
+  margin-right: -15px;
+}
+
+.center {
+  text-align: center;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.animate {
+  font-size: 80px;
+  animation: beat .40s infinite alternate;
+  transform-origin: center;
+}
+
+.font-animate {
+  animation: beat .40s infinite alternate;
+  transform-origin: center;
+}
+
+.count-size {
+  font-size: 36px;
+}
+
+.danger {
+  color: #e00;
+}
+
+.temp {
+  color: #4285f4;
+}
+
+.warn {
+  color: #f4b400;
+}
+
+.normal {
+  color: #00c853;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}

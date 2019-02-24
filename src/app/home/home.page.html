@@ -1,2 +1,66 @@
-<ion-content padding>App is updated by Jayapal</ion-content>
-<!-- cordova plugin add cordova-plugin-ionic --save --nofetch --variable APP_ID="84886903"  --variable CHANNEL_NAME="Master" --variable UPDATE_METHOD="auto" -->
+<ion-content>
+  <ion-card padding>
+    <ion-item no-padding>
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-input type="number" placeholder="phone number"></ion-input>
+      <ion-button slot="end" shape="round" class="save-btn" extend="full" size="default"> save </ion-button>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Beat</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="card-size">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="center"><i class="fas fa-heartbeat animate danger"></i></ion-col>
+          <ion-col class="center count-size animated-heart normal">
+            <b class="font-animate">72</b>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Temperature</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="card-size">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="center"><i class="fas fa-temperature-high animate temp"></i></ion-col>
+          <ion-col class="center count-size animated-heart normal">
+            <b class="font-animate">36</b>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Position</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="card-size">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="center"><i class="fas fa-male animate warn"></i></ion-col>
+          <ion-col class="center count-size animated-heart normal">
+            <b class="font-animate">Good</b>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+      <ion-row margin-top>
+        <ion-col>
+          <ion-button expand="full" color="primary">x : 44 </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button expand="full" color="primary">y : 44 </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button expand="full" color="primary">z : 44 </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
