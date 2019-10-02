@@ -9,6 +9,7 @@ export class AppHttpSerivice {
 
   constructor(private http: HttpClient) { }
 
+  // Get Api call
   get(url: string, params: HttpParams = new HttpParams()): Observable<any> {
     return this.http.get(url, {
       headers: {
