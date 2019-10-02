@@ -41,8 +41,6 @@ export class HomePage {
   makeApi(sDate, eDate) {
     this.subscription.unsubscribe();
     const parms = new HttpParams();
-    //  .set('start', sDate)
-    //  .set('end', eDate);
     this.subscription.add(this.api.get(apiUrl, parms).subscribe(chennal => {
       if (!chennal) return false;
       const feeds = chennal['feeds'];
