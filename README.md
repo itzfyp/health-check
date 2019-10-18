@@ -18,7 +18,7 @@ A wearable monitoring device will be used to monitor and store the activities in
 
 ## Tech stack
 
- `Thingspeak`  IoT platform with MATLAB analytics
+`Thingspeak` IoT platform with MATLAB analytics
 
 `Ionic` Cross-platform mobile app development 
 
