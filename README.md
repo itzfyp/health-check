@@ -1,6 +1,6 @@
 # Health Check
 
-This application is developed as part of demo purpose for students
+This application is developed as part of demo purpose for students of ECE
 
 ## Goal
 
