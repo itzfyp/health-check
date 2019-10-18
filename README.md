@@ -14,5 +14,5 @@ which help them to track and control their activity
 
 ## Concept
 
-A wearable monitoring device will be used to monitor and store the activities in cloud system. Algorithm deployed in cloud system will validate multiple activities based on stored data and do calculate the situation of users.  Result of activities will be notified to users though mobile application those who installed.
+A wearable monitoring device will be used to monitor and store the activities in cloud system. Algorithm deployed in cloud system will validate those activities stored in system and do calculate the situation of users.  Result of activities will be notified to users though mobile application those who installed.
 
