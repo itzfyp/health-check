@@ -1,4 +1,6 @@
 # Health Check Up
 
-Details about this repo will be published soon
+This application is developed as part of demo purpose for students
+
+ 
 
