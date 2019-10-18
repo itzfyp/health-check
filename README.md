@@ -1,4 +1,4 @@
-# Health Check Up
+# Health Check
 
 This application is developed as part of demo purpose for students
 
